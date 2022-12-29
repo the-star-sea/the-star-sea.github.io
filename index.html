@@ -29,6 +29,19 @@
 
     gtag('config', 'G-MJ3ND9PX0V');
   </script>
+  <script>
+    //禁止右键
+    $(document).bind("contextmenu",function(){return false;});
+    //禁止选择
+    $(document).bind("selectstart",function(){return false;});
+    //禁止F12
+    document.onkeydown = function(){
+      if(window.event && window.event.keyCode == 123) {
+        event.keyCode = 0;
+        event.returnValue = false;
+      }
+    }
+  </script>
 </head>
 
 
