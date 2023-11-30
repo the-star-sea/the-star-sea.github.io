@@ -66,25 +66,47 @@
 
  </div>
 
-  <div class="stone-container  stone-padding-16" id="academic experience">
-    <h2>Academic Experience</h2>
 
-    <h4><a href="./odegan.pdf"> Facial Image Generation across  Age</a></h4>
-    <h6><font style="font-family:Times New Roman ">Associate Prof. <a href="https://yuzhanghk.github.io/">Yu Zhang</a>, SUSTech <br> PyTorch</font></h6></font>
-    <li> applied support vector machines to do latent manipulation linearly in StyleGAN</li>
-    <li>proposed a novel model to transform facial images continuously across age based on StyleGAN  and Neural ODE</li>
-    <li>applied an age estimator to supervise Generator and ensure the identity and age of face</li>
+    <div class="stone-container stone-padding-16" id="academic-projects">
+        <h2 class="stone-text-theme">Academic Projects</h2>
 
-    <h4><a href="ICRA2023.pdf"> Trajectory Prediction and Driving Video Caption </a></h4>
-    <h6><font style="font-family:Times New Roman ">Assistant Prof. <a href="https://sites.google.com/view/fromandto">Hao Zhao</a>, THU <br>NumPy, PyTorch</font></h6></font>
-    <li> predicted trajectory on a new interactive motion dataset by AgentFormer and Trajectron++</li>
-    <li>trained a novel end-to-end transformer generated description and explanation of the video</li>
-    <li>demonstrated state-of-the-art performance  (a co-authored paper accepted to ICRA 2023)</li>
+        <h4 class="stone-text-bold"><a href="https://arxiv.org/abs/2311.15543">Human-Readable SVG Generation with Vision Language Models</a></h4>
+        <img src="images/svg.jpg" style="width:96%">
+            <h6><font style="font-family:Times New Roman ">Assistant Prof. <a href="https://haohanwang.github.io/">Haohan Wang</a>, UIUC <br> PyTorch</font></h6></font>
+                <li>Developed S²VG², an innovative method integrating vision language models for scalable vector graphics (SVG) generation.</li>
+                <li>Curated the SVG-SHAPE dataset to benchmark SVG generation and model reasoning capabilities.</li>
+                <li>Achieved breakthrough performance metrics, contributing to a paper submitted to CVPR2024.</li>
 
-  </div>
+        <h4 class="stone-text-bold"><a href="https://arxiv.org/abs/2311.06443">One-shot Controllable Head Avatar Creation</a></h4>
+        <img src="images/CVTHead.jpg"  style="width:96%">
+        <h6><font style="font-family:Times New Roman ">Prof. <a href="https://www.ics.uci.edu/~xhx/">Xiaohui Xie</a>, UCI <br> PyTorch</font></h6></font>
+        <li>Pioneered CVTHead, a framework for point-based neural rendering from monocular images.</li>
+        <li>Conducted comprehensive benchmarks against leading methods for cross-identity reenactment.</li>
+        <li>Published findings in WACV2024, showcasing advancements in efficiency and performance.</li>
+
+
+
+
+
+      <h4><a href="https://arxiv.org/abs/2302.00673"> Trajectory Prediction and Driving Video Caption </a></h4>
+        <img src="images/trajectory.png"  style="width:80%">
+      <h6><font style="font-family:Times New Roman ">Assistant Prof. <a href="https://sites.google.com/view/fromandto">Hao Zhao</a>, THU <br>NumPy, PyTorch</font></h6></font>
+      <li> predicted trajectory on a new interactive motion dataset by AgentFormer and Trajectron++</li>
+      <li>trained a novel end-to-end transformer generated description and explanation of the video</li>
+      <li>demonstrated state-of-the-art performance  (a co-authored paper accepted to ICRA 2023)</li>
+    </div>
+<!--    <h4><a href="./odegan.pdf"> Facial Image Generation across  Age</a></h4>-->
+<!--    <h6><font style="font-family:Times New Roman ">Associate Prof. <a href="https://yuzhanghk.github.io/">Yu Zhang</a>, SUSTech <br> PyTorch</font></h6></font>-->
+<!--    <li> applied support vector machines to do latent manipulation linearly in StyleGAN</li>-->
+<!--    <li>proposed a novel model to transform facial images continuously across age based on StyleGAN  and Neural ODE</li>-->
+<!--    <li>applied an age estimator to supervise Generator and ensure the identity and age of face</li>-->
+
+<!--    -->
+
 
   <div class="stone-container stone-padding-16" id="project experience">
-    <h2>Capstone Projects</h2>
+      <h2 class="stone-text-theme">Capstone Projects</h2>
+
     <h4><a href="https://github.com/the-star-sea/fastcnn">Inference Acceleration for Face Detection Models</a> </h4>
     <h6><font style="font-family:Times New Roman ">C/C++ Programming and Design (CS205), SUSTech<br>C++, AVX </font> </h6></font>
     <li> re-implemented convolutional layer, fully connected layer and pooling layer by C++ and AVX</li>
@@ -95,10 +117,10 @@
     <li>proposed a new local search algorithm for CARP and accelerated it by multiprocessing</li>
     <li>achieved the best performance in the online judge among more than 150 students</li>
 
-    <h4>A Tremor Detection Android APP </h4>
-    <h6><font style="font-family:Times New Roman ">Senior Project (EECS 159A), UCI<br>Kotlin, NumPy</font></h6></font>
-    <li>designed the whole architecture and implemented the signal process module (FFT, Decision Tree)</li>
-    <li>deployed a hand pose estimation model in Android through TFlite</li>
+<!--    <h4>A Tremor Detection Android APP </h4>-->
+<!--    <h6><font style="font-family:Times New Roman ">Senior Project (EECS 159A), UCI<br>Kotlin, NumPy</font></h6></font>-->
+<!--    <li>designed the whole architecture and implemented the signal process module (FFT, Decision Tree)</li>-->
+<!--    <li>deployed a hand pose estimation model in Android through TFlite</li>-->
 
   </div>
 
@@ -121,7 +143,7 @@
     <div class="stone-container stone-padding-16" id="publications">
         <h2>Publications</h2>
 
-        <ul>
+
             <li>
                 <strong>Tong Zhang</strong>, Haoyang Liu, Peiyan Zhang, Yuxuan Cheng, and Haohan Wang,
                 "<em>Beyond Pixels: Exploring Human-Readable SVG Generation for Simple Images with Vision Language Models</em>",
@@ -130,14 +152,14 @@
             <li>
                 Haoyu Ma, <strong>Tong Zhang</strong>, Shanlin Sun, Xiangyi Yan, Kun Han, and Xiaohui Xie,
                 "<em>CVTHead: One-shot Controllable Head Avatar with Vertex-feature Transformer</em>",
-                Accepted by IEEE/CVF Winter Conference on Applications of Computer Vision (WACV), 2024.
+                IEEE/CVF Winter Conference on Applications of Computer Vision (WACV), 2024.
             </li>
             <li>
                 Bu Jin, Xinyu Liu, Yupeng Zheng, Pengfei Li, Hao Zhao, <strong>Tong Zhang</strong>, Yuhang Zheng, Guyue Zhou, and Jingjing Liu,
                 "<em>ADAPT: Action-aware Driving Caption Transformer</em>",
-                Accepted by IEEE International Conference on Robotics and Automation (ICRA), 2023.
+                IEEE International Conference on Robotics and Automation (ICRA), 2023.
             </li>
-        </ul>
+
     </div>
 
 
